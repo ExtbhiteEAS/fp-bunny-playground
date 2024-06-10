@@ -13,6 +13,7 @@ const user = UserStore.getCurrentUser()
 export default () => (<ScrollView>
     <FormSection>
         <FormText>ID: {user.id}</FormText>
+        <FormText>Username: {user.username}</FormText>
         <FormRow
             label = "Discord Server"
             leading = {<FormRow.Icon source={getAssetIDByName("Discord")} />}

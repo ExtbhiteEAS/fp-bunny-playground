@@ -1,10 +1,14 @@
 {
-    "name": "Template Plugin",
+    "name": "fakeProfile (playground)",
     "description": "A plugin for use as a template. Why you are reading that?",
     "authors": [
         {
             "name": "Extbhite",
             "id": "849335684161601546"
+        },
+        {
+            "name": "Sampath",
+            "id": "984015688807100419"
         }
     ],
     "main": "src/index.ts",
