@@ -1,7 +1,6 @@
 import { logger } from "@vendetta";
 import { safeFetch } from "@vendetta/utils";
 import { showToast } from "@vendetta/ui/toasts";
-import { getAssetIDByName } from "@vendetta/ui/assets";
 import { UserProfileData } from "./lib/types";
 import Settings from "./Settings";
 
@@ -22,7 +21,6 @@ export const onLoad = async () => {
     if (!data) {
         return showToast('Failed to load fakeProfile database');
     }
-    showToast("This plugin is not finished result of fakeProfile. This is playground plugin special for fakeProfile development for mobile.", getAssetIDByName("check"))
 }
 
 export const onUnload = () => unpatch?.()
