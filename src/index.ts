@@ -19,7 +19,7 @@ export const fetchData = async () => {
 export const onLoad = async () => {
     await fetchData();
     if (!data) {
-        return showToast('Failed to load fakeProfile database')
+        return showToast('Failed to load fakeProfile database');
     }
 }
 
