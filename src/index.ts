@@ -1,9 +1,10 @@
 import { logger } from "@vendetta";
 import { safeFetch } from "@vendetta/utils";
 import { showToast } from "@vendetta/ui/toasts";
+import { UserProfileData } from "./lib/types";
 import Settings from "./Settings";
 
-let data;
+let data: UserProfileData;
 let unpatch: () => void;
 
 export const fetchData = async () => {
@@ -18,7 +19,7 @@ export const fetchData = async () => {
 export const onLoad = async () => {
     await fetchData();
     if (!data) {
-        return showToast('Failed to load fakeProfile database');
+        return showToast('Failed to load fakeProfile database')
     }
 }
 

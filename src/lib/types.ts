@@ -1,10 +1,3 @@
-export interface Badge {
-    asset: string;
-    description: string;
-    icon: string;
-    link?: string;
-}
-
 export interface DecorationData {
     asset: string;
     skuId: string;
@@ -20,7 +13,6 @@ export interface UserProfileData {
     profile_effect: string;
     banner: string;
     avatar: string;
-    badges: Badge[];
     decoration: DecorationData;
 }
 
