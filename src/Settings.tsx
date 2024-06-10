@@ -12,6 +12,7 @@ const user = UserStore.getCurrentUser()
 
 export default () => (<ScrollView>
     <FormSection>
+        <FormText>This plugin is not finished result of fakeProfile. This is playground plugin special for fakeProfile development for mobile.</FormText>
         <FormText>ID: {user.id}</FormText>
         <FormText>Username: {user.username}</FormText>
         <FormRow
