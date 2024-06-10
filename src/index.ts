@@ -20,7 +20,7 @@ export const onLoad = async () => {
     // remove this comma if it is necessary.
     // await fetchData();
     if (!data) {
-        return showToast('Failed to load fakeProfile database');
+        return showToast('This plugin is a playground thing. Use this: https://fakeprofile.sampath.tech');
     }
 }
 
