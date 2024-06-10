@@ -1,10 +1,10 @@
 {
     "name": "Template Plugin",
-    "description": "A plugin for use as a template.",
+    "description": "A plugin for use as a template. Why you are reading that?",
     "authors": [
         {
-            "name": "You!",
-            "id": "YOUR_ID_HERE"
+            "name": "Extbhite",
+            "id": "849335684161601546"
         }
     ],
     "main": "src/index.ts",
