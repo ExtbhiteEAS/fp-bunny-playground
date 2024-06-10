@@ -33,9 +33,10 @@ export default () => (<ScrollView>
             leading = {<FormRow.Icon source={getAssetIDByName("ic_message_retry")} />}
             trailing = {FormRow.Arrow}
             onPress = {async () => {
-                const fetch = await fetchData();
-                if (!fetch) return showToast("Failed to refetch fakeProfile", getAssetIDByName("small"))
-                return showToast("Refetched fakeProfile", getAssetIDByName("check"))
+                // remove these commas if it is necessary.
+                // const fetch = await fetchData();
+                // if (!fetch) return showToast("Failed to refetch fakeProfile", getAssetIDByName("small"))
+                return showToast("Refetched fakeProfile, but it is playground plugin. Nothing happend.", getAssetIDByName("check"))
             }}
         />
     </FormSection>

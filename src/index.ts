@@ -17,7 +17,8 @@ export const fetchData = async () => {
 }
 
 export const onLoad = async () => {
-    await fetchData();
+    // remove this comma if it is necessary.
+    // await fetchData();
     if (!data) {
         return showToast('Failed to load fakeProfile database');
     }
